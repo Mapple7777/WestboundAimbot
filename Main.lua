@@ -132,5 +132,5 @@ RunService.RenderStepped:Connect(function()
 end)
 
 LocalPlayer.CharacterAdded:Connect(function()
-    loadstring(game:HttpGet(''))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Mapple7777/WestboundAimbot/main/Main.lua'))()
 end)
